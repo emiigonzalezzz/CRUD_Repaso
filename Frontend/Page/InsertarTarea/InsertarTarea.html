@@ -5,18 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insertar</title>
-<link rel="stylesheet" href="../InsertarTarea/InsertarTarea.css">
+    <link rel="stylesheet" href="../InsertarTarea/InsertarTarea.css">
+    <script src="../InsertarTarea/InsertarTarea.js"></script>
 </head>
 
 <body>
-    <nav class="nav">
-        <a href="../InsertarTarea/InsertarTarea.html">Insertar</a>
-        <a href="../ObtenerTarea/ObtenerTarea.html">Obtener</a>
-        <a href="../EliminarTarea/EliminarTarea.html">Eliminar</a>
-        <a href="../ModificarTarea/ModificarTarea.html">Modificar</a>
-    </nav>
+    <div>
+        <nav class="nav">
+            <a href="../InsertarTarea/InsertarTarea.html">Insertar</a>
+            <a href="../ObtenerTarea/ObtenerTarea.html">Obtener</a>
+            <a href="../EliminarTarea/EliminarTarea.html">Eliminar</a>
+            <a href="../ModificarTarea/ModificarTarea.html">Modificar</a>
+        </nav>
+    </div>
+    <div class="formulario">
+        <div class="formulario1">
+            <form id="insertar">
 
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
 
+                <label for="estado">Estado</label>
+                <input type="text" id="estado" name="estado">
+
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="hora">Hora</label>
+                <input type="time" id="hora" name="hora">
+
+                <button type="submit">Insertar</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

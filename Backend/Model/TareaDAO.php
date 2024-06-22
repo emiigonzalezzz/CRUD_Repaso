@@ -24,7 +24,7 @@ class tarea
 
     public function EliminarTareaModel($id)
     {
-        $sql = "DELETE FROM libro WHERE id = $id;";
+        $sql = "DELETE FROM tareas WHERE id = $id;";
         $connection = connection();
         $respuesta = $connection->query($sql); 
         return $respuesta;
